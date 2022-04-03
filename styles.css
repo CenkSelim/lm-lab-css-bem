@@ -6,6 +6,8 @@
     --jedi-active: #3af50b;
     --sith-inactive: #611313;
     --jedi-inactive: #1b520e;
+    --shadow-inactive :#888888;
+    --shadow-active :#666;
 }
 
 /* Block */
@@ -62,11 +64,11 @@
     color: #fff;
     border: none;
     border-radius: .5rem;
-    box-shadow: .5rem .6rem #888888;
+    box-shadow: .5rem .6rem var(--shadow-inactive);
 }
 
 .card__button:active {
-    box-shadow: 0 .5em #666;
+    box-shadow: 0 .5em var(--shadow-active);
     transform: translateY(.5em);
 }
 
