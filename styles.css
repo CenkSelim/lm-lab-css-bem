@@ -45,9 +45,17 @@
 }
 
 .card__quote {
-
+    font-style: italic;
+    content: "'" attr(text) "'";
 }
 
+.card__quote::before {
+    content: open-quote;
+}
+
+.card__quote::after {
+    content: close-quote;
+}
 /* Modifier */
 
 .card--dark {
