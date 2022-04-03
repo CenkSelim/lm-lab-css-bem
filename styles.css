@@ -1,5 +1,7 @@
 :root {
     font-family: 'Source Serif Pro',serif;
+    --light: #E7ECEF;
+    --dark: #272932;
 }
 
 /* Block */
@@ -47,3 +49,13 @@
 }
 
 /* Modifier */
+
+.card--dark {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.card--light {
+    background-color: var(--light);
+    color: var(--dark);
+}
