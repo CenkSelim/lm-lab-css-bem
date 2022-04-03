@@ -7,15 +7,15 @@
 /* Block */
 
 .container {
-    border: 1px solid;
-    padding: 10px;
-    margin: 10px;
+    border: 0.1rem solid;
+    padding: 0.1rem;
+    margin: 0.1rem;
 }
 
 .card {
-    border: 1px solid;
-    padding: 10px;
-    margin: 20px;
+    border: 0.1rem solid;
+    padding: 0.1rem;
+    margin: 2.0rem;
 }
 
 /* Element */
@@ -61,5 +61,35 @@
 }
 
 .card--shadow {
-    box-shadow: 5px 10px #888888;
+    box-shadow: .5rem 1.0rem #888888;
+}
+
+.heading--center {
+    text-align: center;
+}
+
+.card__heading--center {
+    text-align: center;
+}
+
+.card_img--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.card__strength--center {
+    text-align: center;
+}
+
+.card__likes--center {
+    text-align: center;
+}
+
+.card__understanding--center {
+    text-align: center;
+}
+
+.card__quote--center {
+    text-align: center;
 }
