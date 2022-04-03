@@ -1,7 +1,45 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+:root {
+    
 }
 
-/* Happy coding! */
+/* Block */
+
+.container {
+   
+}
+
+.card {
+   
+}
+
+/* Element */
+
+.heading {
+   
+}
+
+.card__heading {
+   
+}
+
+.card__img {
+    
+}
+
+.card__strength{
+    
+}
+
+.card__likes {
+
+}
+
+.card__understanding {
+    
+}
+
+.card__quote {
+
+}
+
+/* Modifier */
