@@ -14,11 +14,15 @@
 
 .card {
     border: 0.1rem solid;
-    padding: 0.1rem;
+    padding: 1.0rem;
     margin: 2.0rem;
 }
 
 /* Element */
+
+.container_flex {
+    display: flex;
+}
 
 .heading {
    
@@ -56,7 +60,17 @@
 .card__quote::after {
     content: close-quote;
 }
+
+
 /* Modifier */
+
+.container__flex--wrap {
+    flex-wrap: wrap;
+}
+
+.container__flex--center {
+    justify-content: center;
+}
 
 .card--dark {
     background-color: var(--dark);
