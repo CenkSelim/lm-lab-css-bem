@@ -2,6 +2,10 @@
     font-family: 'Source Serif Pro',serif;
     --light: #E7ECEF;
     --dark: #272932;
+    --sith-active: #fa3131;
+    --jedi-active: #3af50b;
+    --sith-inactive: #611313;
+    --jedi-inactive: #1b520e;
 }
 
 /* Block */
@@ -48,6 +52,25 @@
     
 }
 
+.card__button {
+    display: inline-block;
+    padding: 1.0rem 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: .5rem .6rem #888888;
+}
+
+.card__button:active {
+    box-shadow: 0 .5em #666;
+    transform: translateY(.5em);
+}
+
 .card__quote {
     font-style: italic;
     content: "'" attr(text) "'";
@@ -83,7 +106,7 @@
 }
 
 .card--shadow {
-    box-shadow: .5rem 1.0rem #888888;
+    box-shadow: .5rem .6rem #888888;
 }
 
 .heading--center {
@@ -114,4 +137,26 @@
 
 .card__quote--center {
     text-align: center;
+}
+
+.card__button--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.card__button--sith {
+    background-color: var(--sith-inactive);
+}
+
+.card__button--sith:active {
+    background-color: var(--sith-active);
+}
+
+.card__button--jedi {
+    background-color: var(--jedi-inactive);
+}
+
+.card__button--jedi:active {
+    background-color: var(--jedi-active);
 }
