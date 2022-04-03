@@ -7,15 +7,15 @@
 /* Block */
 
 .container {
-    border-style: solid;
+    border: 1px solid;
     padding: 10px;
     margin: 10px;
 }
 
 .card {
-    border-style: solid;
+    border: 1px solid;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 /* Element */
@@ -58,4 +58,8 @@
 .card--light {
     background-color: var(--light);
     color: var(--dark);
+}
+
+.card--shadow {
+    box-shadow: 5px 10px #888888;
 }
